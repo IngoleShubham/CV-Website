@@ -184,7 +184,7 @@ form {
 }
 
 .footer-btn {
-  padding:2% 5px;
+  padding: 5% 5px 2%;
   color: #FFF;
 }
 
@@ -192,6 +192,7 @@ form {
 /* last section */
 #last-sec{
   box-shadow: 0px -5px 10px #7a33ff;
+  padding-bottom: 50px;
 }
 
 
