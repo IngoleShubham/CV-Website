@@ -22,6 +22,19 @@ p {
   padding: 0;
 }
 
+@media (min-aspect-ratio: 16/9) {
+  .background-top {
+    width: 100%;
+    height: auto;
+  }
+}
+@media(max-aspect-ratio: 16/9){
+  .background-top {
+    width: auto;
+    height: 100%;
+  }
+}
+
 .p {
   background-color: #5800FF;
   display: inline-block;
